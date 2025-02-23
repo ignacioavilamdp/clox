@@ -10,7 +10,7 @@ CFLAGS = -Wall
 TARGET_EXEC = main.exe
 
 # Source files
-SRC_FILES := chunk.c memory.c main.c debug.c value.c vm.c
+SRC_FILES := chunk.c memory.c main.c debug.c value.c vm.c scanner.c compiler.c
 
 # Object files
 OBJS = $(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC_FILES))
